@@ -21,7 +21,7 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-keywords = ["mcp", "model-context-protocol", "time", "utc", "timestamp"]
+keywords = ["mcp", "model-context-protocol", "time", "utc", "timestamp", "mcp-name:io.github.domdomegg/time-mcp-pypi"]
 dependencies = [
     "mcp==1.13.1",
 ]
@@ -30,7 +30,6 @@ dependencies = [
 Homepage = "https://github.com/domdomegg/time-mcp-pypi"
 Repository = "https://github.com/domdomegg/time-mcp-pypi.git"
 Issues = "https://github.com/domdomegg/time-mcp-pypi/issues"
-MCP = "io.github.domdomegg/time-mcp-pypi"
 
 [project.scripts]
 time-mcp-pypi = "time_mcp_server.main:main"
