@@ -58,11 +58,7 @@ Once configured, you can use the time tool in Claude Desktop:
 
 To publish a new version of the package:
 
-1. **Update the version in `pyproject.toml`**, and commit as `Relase version x.y.z`:
-   ```toml
-   [project]
-   version = "1.0.1"
-   ```
+1. **Update the version in `pyproject.toml`**, and commit as `Release x.y.z`
 
 2. **Tag the release** with a version number prefixed with 'v':
    ```bash
