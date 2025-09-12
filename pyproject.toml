@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "time-mcp-pypi"
-version = "1.0.5"
+version = "1.0.6"
 description = "A Model Context Protocol (MCP) server that provides current UTC time in RFC 3339 format"
 license = "MIT"
 readme = "README.md"
