@@ -1,14 +1,12 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
   "name": "io.github.domdomegg/time-mcp-pypi",
-  "description": "A Model Context Protocol (MCP) server that provides current UTC time in RFC 3339 format. Simple, lightweight tool for getting timestamps in AI applications.",
+  "version": "{{VERSION}}",
+  "description": "Get the current UTC time in RFC 3339 format.",
   "status": "active",
   "repository": {
     "url": "https://github.com/domdomegg/time-mcp-pypi.git",
     "source": "github"
-  },
-  "version_detail": {
-    "version": "{{VERSION}}"
   },
   "packages": [
     {
