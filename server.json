@@ -11,7 +11,7 @@
   "packages": [
     {
       "registry_name": "pypi",
-      "name": "time-mcp-pypi",
+      "identifier": "time-mcp-pypi",
       "version": "{{VERSION}}",
       "runtime_hint": "python"
     }
