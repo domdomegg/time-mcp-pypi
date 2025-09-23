@@ -20,7 +20,7 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-keywords = ["mcp", "model-context-protocol", "time", "utc", "timestamp", "mcp-name:io.github.domdomegg/time-mcp-pypi"]
+keywords = ["mcp", "model-context-protocol", "time", "utc", "timestamp"]
 dependencies = [
     "mcp==1.13.1",
 ]
