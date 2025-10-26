@@ -65,7 +65,7 @@ jobs:
       - name: Update project version
         run: |
           sed -i 's/version = ".*"/version = "${{ steps.version.outputs.VERSION }}"/' pyproject.toml
-          sed -i 's/"version": ".*"/"version": "${{ steps.version.outputs.VERSION }}"/' server.json
+          sed -i 's/"version": "{{VERSION}}"/"version": "${{ steps.version.outputs.VERSION }}"/g' server.json
 
       - name: Build package
         run: python -m build
