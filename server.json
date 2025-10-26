@@ -1,6 +1,7 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
   "name": "io.github.domdomegg/time-mcp-pypi",
+  "title": "Time MCP Server",
   "version": "{{VERSION}}",
   "description": "Get the current UTC time in RFC 3339 format.",
   "status": "active",
