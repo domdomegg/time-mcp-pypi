@@ -4,17 +4,15 @@
   "title": "Time MCP Server",
   "version": "{{VERSION}}",
   "description": "Get the current UTC time in RFC 3339 format.",
-  "status": "active",
   "repository": {
     "url": "https://github.com/domdomegg/time-mcp-pypi.git",
     "source": "github"
   },
   "packages": [
     {
-      "registry_type": "pypi",
+      "registryType": "pypi",
       "identifier": "time-mcp-pypi",
       "version": "{{VERSION}}",
-      "runtime_hint": "python",
       "transport": {"type": "stdio"}
     }
   ]
