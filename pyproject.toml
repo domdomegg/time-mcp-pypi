@@ -22,7 +22,7 @@ classifiers = [
 ]
 keywords = ["mcp", "model-context-protocol", "time", "utc", "timestamp"]
 dependencies = [
-    "mcp==1.13.1",
+    "mcp==1.27.2",
 ]
 
 [project.urls]
